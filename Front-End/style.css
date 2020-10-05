@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    height: 100vh;
+}
 /*-------------------------nav-start-------------------------*/
 nav {
     background-color: #9BD2DE;
@@ -35,6 +38,7 @@ h1 {
 }
 .title-table {
     margin: 0 0 0 10%;
+    height: auto;
 }
 .fake-table{
     display: flex
@@ -42,9 +46,14 @@ h1 {
     
 #list{
     list-style: none;
+    margin-left: 50px;
+    margin-top: 1em;
 }
 #list2{
     list-style: none;
+    margin-left: 50px;
+    margin-top: 1em;
+
 }
 
 .botao-listar {
@@ -69,9 +78,7 @@ button {
 footer {
     background-color: #F6511D;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  
 }
 
 .section-footer {
@@ -80,6 +87,12 @@ footer {
     align-items: center;
     padding: 2.5%;
 }
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+}
+
 .itens {
     display: flex;
     flex-direction: column;

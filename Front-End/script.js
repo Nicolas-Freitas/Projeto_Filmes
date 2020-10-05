@@ -20,7 +20,6 @@ function Listar(){
                 list.appendChild(li);
                 list2.appendChild(li2);
 
-            
             }
         })
 }
