@@ -24,3 +24,6 @@ function Listar(){
             }
         })
 }
+function Update(){
+    location.reload(true);
+}
